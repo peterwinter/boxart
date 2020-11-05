@@ -6,8 +6,6 @@ n_low = 3
 n_high = 5
 n_start = 4
 
-
-
 def next_cut_n(current_n):
     """
     """
@@ -17,7 +15,7 @@ def next_cut_n(current_n):
     else:
         if current_n == n_high:
             return current_n - 1
-        elif current_n == n_low:f
+        elif current_n == n_low:
             return current_n + 1
         else:
             if r < 0.75:
